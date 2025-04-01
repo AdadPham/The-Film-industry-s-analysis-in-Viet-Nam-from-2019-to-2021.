@@ -1,0 +1,9 @@
+status_id,description,error_group
+1,Order successful,
+-1,Payment overdue,customer
+-2,Insufficient funds in customer account. Please add more funds and try the transaction again.,customer
+-3,No response from your bank,external
+-4,Password locked due to multiple incorrect attempts. Choose Forgot Password to unlock.,customer
+-5,Payment failed from bank,external
+-6,Need verify your account to continue,customer
+-7,Transaction temporarily limited,internal
